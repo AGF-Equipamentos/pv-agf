@@ -15,7 +15,9 @@ import { Creators as SelectActions } from '../../store/ducks/select_infos';
 import Menu from '../../components/Menu';
 
 const sellers = [
+  { label: 'ALBERI BAUMART' },
   { label: 'ALEXANDRE SOUZA' },
+  { label: 'ANDERSON MAX' },
   { label: 'ANDRÉ FILHO' },
   { label: 'CARLOS TEIXEIRA' },
   { label: 'EDSON BORGES' },

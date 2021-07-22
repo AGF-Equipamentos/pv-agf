@@ -24,7 +24,6 @@ const sellers = [
   { label: 'FERNANDO SOUZA' },
   { label: 'MAURICIO MARCONDES' },
   { label: 'MOZART PEDROTI' },
-  { label: 'GIOVANI ALBUQUERQUE' },
   { label: 'FABIO GROBA' },
   { label: 'GELSON VASCONCELLOS' },
 ];

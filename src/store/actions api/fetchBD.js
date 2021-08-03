@@ -41,7 +41,7 @@ export function fetchSystem_clients(system_clients) {
 export function loadSystem_clients() {
   return async dispatch => {
     try {
-      await api.get('/clients').then(response => {
+      await api.get('/clients?filial=01').then(response => {
         dispatch(fetchSystem_clients(response.data));
       });
     } catch (err) {

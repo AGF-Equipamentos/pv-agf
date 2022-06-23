@@ -20,6 +20,7 @@ const sellers = [
   { label: 'ANDERSON MAX' },
   { label: 'ANDRÉ FILHO' },
   { label: 'CARLOS TEIXEIRA' },
+  { label: 'DONARIO DUTRA' },
   { label: 'EDSON BORGES' },
   { label: 'FERNANDO SOUZA' },
   { label: 'MAURICIO MARCONDES' },

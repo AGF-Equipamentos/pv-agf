@@ -9,7 +9,6 @@ import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
 import amber from '@material-ui/core/colors/amber';
 import grey from '@material-ui/core/colors/grey';
 import ServiceWorkerWrapper from './components/swWrapper';
-import Analytics from './components/Analytics';
 
 import Routes from './routes';
 
@@ -25,7 +24,6 @@ const theme = createMuiTheme({
 function App() {
   return (
     <Provider store={store}>
-      <Analytics />
       <PersistGate loading={null} persistor={persistor}>
         <MuiThemeProvider theme={theme}>
           <Routes />

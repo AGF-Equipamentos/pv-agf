@@ -17,11 +17,8 @@ import Success from './pages/Success';
 import DifferentialRateCalculator from './pages/DifferentialRateCalculator';
 
 import AsyncNoMatch from './pages/NoMatch';
-import usePageTracking from './usePageTracking';
 
 function App() {
-  usePageTracking();
-
   return (
     <div>
       <Switch>

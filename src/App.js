@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import 'antd/dist/antd.css';
 
+import { BrowserRouter } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import { PersistGate } from 'redux-persist/integration/react';
 
@@ -26,7 +27,9 @@ function App() {
     <Provider store={store}>
       <PersistGate loading={null} persistor={persistor}>
         <MuiThemeProvider theme={theme}>
-          <Routes />
+          <BrowserRouter>
+            <Routes />
+          </BrowserRouter>
           <ServiceWorkerWrapper />
         </MuiThemeProvider>
       </PersistGate>

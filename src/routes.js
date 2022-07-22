@@ -36,7 +36,7 @@ function App() {
           exact
           path="/sellerdetails"
           render={props => (
-            <Page title="Informações do Vendedor | Pv AGF | Pv AGF">
+            <Page title="Informações do Vendedor | Pv AGF">
               <SellerDetails {...props} />
             </Page>
           )}

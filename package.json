@@ -16,7 +16,6 @@
     "axios": "^0.19.2",
     "dotenv": "^8.2.0",
     "evergreen-ui": "^4.23.0",
-    "ga-4-react": "^0.1.281",
     "jspdf": "^1.5.3",
     "material-ui": "^0.20.2",
     "pdfmake": "^0.1.64",

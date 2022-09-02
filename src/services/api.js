@@ -4,7 +4,7 @@ const localMode = localStorage.getItem('@ASA');
 
 const api = axios.create({
   baseURL:
-    localMode === '186.193.142.154'
+    localMode === 'on'
       ? 'https://api.agfequipamentos.com.br'
       : process.env.REACT_APP_SERVER,
 });

@@ -52,34 +52,36 @@ let Login = ({ history, values }) => {
     const reponse = await fetch('https://api.ipify.org').then(res =>
       res.text(),
     );
-    localStorage.setItem('@ASA', reponse);
-    if (reponse === '186.193.142.154') {
-      if (values && values.login === true) {
-        history.push('/sellerdetails');
-        window.location.reload();
-      }
-      if (values && values.sync_date) {
-        await store.dispatch(change('infoReduxForm', 'login', true));
-        history.push('/sellerdetails');
-      } else {
-        setLoading(<CircularProgress />);
-        await store.dispatch(change('infoReduxForm', 'login', true));
-        await store.dispatch(change('infoReduxForm', 'payment_type', false));
-        await store.dispatch(change('infoReduxForm', 'contrato', 'nao'));
-        await store.dispatch(change('infoReduxForm', 'sync_date', new Date()));
-        await store.dispatch(
-          change(
-            'infoReduxForm',
-            'data_pc',
-            new Date().toISOString().substring(0, 10),
-          ),
-        );
-
-        history.push('/sellerdetails');
-        window.location.reload();
-      }
-    }
+    localStorage.setItem('@ASA', reponse === '186.193.142.154' ? 'on' : 'off');
     if (password === 'agf123') {
+      if (reponse === '186.193.142.154') {
+        if (values && values.login === true) {
+          history.push('/sellerdetails');
+          window.location.reload();
+        }
+        if (values && values.sync_date) {
+          await store.dispatch(change('infoReduxForm', 'login', true));
+          history.push('/sellerdetails');
+        } else {
+          setLoading(<CircularProgress />);
+          await store.dispatch(change('infoReduxForm', 'login', true));
+          await store.dispatch(change('infoReduxForm', 'payment_type', false));
+          await store.dispatch(change('infoReduxForm', 'contrato', 'nao'));
+          await store.dispatch(
+            change('infoReduxForm', 'sync_date', new Date()),
+          );
+          await store.dispatch(
+            change(
+              'infoReduxForm',
+              'data_pc',
+              new Date().toISOString().substring(0, 10),
+            ),
+          );
+
+          history.push('/sellerdetails');
+          window.location.reload();
+        }
+      }
       if (values && values.login === true) {
         history.push('/sellerdetails');
       }

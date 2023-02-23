@@ -49,7 +49,11 @@ const renderSwitch = ({ input, label }) => (
   </div>
 );
 
-const circuit_length = [{ label: '18 M' }, { label: '24,5 M' }];
+const circuit_length = [
+  { label: '16 M' },
+  { label: '18 M' },
+  { label: '24,5 M' },
+];
 
 let Monofio = ({ history, handleSubmit, submitting }) => {
   async function showResults() {

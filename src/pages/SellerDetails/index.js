@@ -23,10 +23,11 @@ const sellers = [
   { label: 'DONARIO DUTRA' },
   { label: 'EDSON BORGES' },
   { label: 'FERNANDO SOUZA' },
-  { label: 'MAURICIO MARCONDES' },
-  { label: 'MOZART PEDROTI' },
   { label: 'FABIO GROBA' },
   { label: 'GELSON VASCONCELLOS' },
+  { label: 'LUIGI PAINI' },
+  { label: 'MAURICIO MARCONDES' },
+  { label: 'MOZART PEDROTI' },
 ];
 
 const operation_natures = [

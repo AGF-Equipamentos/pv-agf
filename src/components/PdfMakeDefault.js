@@ -298,7 +298,7 @@ export default function PdfMakeDefault({
               },
               'CNPJ: 11.681.470/0001-84 | INSCRIÇÃO ESTADUAL: 530.051.442.114\n',
               'MATRIZ: Rod. SP 346, km 202,5 - Distrito Industrial, Espirito Santo do Pinhal - SP\n',
-              'FILIAL: Rod. Engenheiro Fabiano Vivacqua, 441, Marbrasa, Cachoeiro Itapemirim - ES',
+              'FILIAL: R. Irmã Giovanna Menechini, nº 141 Bairro Marbrasa, Cachoeiro Itapemirim - ES',
             ],
             fontSize: 6,
           },

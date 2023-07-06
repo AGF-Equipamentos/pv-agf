@@ -17,12 +17,11 @@ import Menu from '../../components/Menu';
 const sellers = [
   { label: 'ALBERI BAUMART' },
   { label: 'ALEXANDRE SOUZA' },
-  { label: 'ANDERSON MAX' },
   { label: 'ANDRÉ FILHO' },
+  { label: 'CARLOS EDUARDO' },
   { label: 'CARLOS TEIXEIRA' },
   { label: 'DONARIO DUTRA' },
   { label: 'EDSON BORGES' },
-  { label: 'FERNANDO SOUZA' },
   { label: 'FABIO GROBA' },
   { label: 'GELSON VASCONCELLOS' },
   { label: 'LUIGI PAINI' },

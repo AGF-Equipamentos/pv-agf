@@ -16,6 +16,7 @@ import Menu from '../../components/Menu';
 
 const sellers = [
   { label: 'ALBERI BAUMART' },
+  { label: 'ALEX PIMENTA' },
   { label: 'ALEXANDRE SOUZA' },
   { label: 'ANDRÉ FILHO' },
   { label: 'CARLOS EDUARDO' },

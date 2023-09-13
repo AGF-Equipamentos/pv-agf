@@ -25,6 +25,7 @@ const sellers = [
   { label: 'EDSON BORGES' },
   { label: 'FABIO GROBA' },
   { label: 'GELSON VASCONCELLOS' },
+  { label: 'LUCIELIO JUNIOR' },
   { label: 'LUIGI PAINI' },
   { label: 'MAURICIO MARCONDES' },
   { label: 'MOZART PEDROTI' },

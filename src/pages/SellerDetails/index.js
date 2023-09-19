@@ -21,6 +21,7 @@ const sellers = [
   { label: 'ANDRÉ FILHO' },
   { label: 'CARLOS EDUARDO' },
   { label: 'CARLOS TEIXEIRA' },
+  { label: 'CELSO PAROT' },
   { label: 'DONARIO DUTRA' },
   { label: 'EDSON BORGES' },
   { label: 'FABIO GROBA' },

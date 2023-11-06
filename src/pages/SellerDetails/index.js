@@ -26,10 +26,12 @@ const sellers = [
   { label: 'EDSON BORGES' },
   { label: 'FABIO GROBA' },
   { label: 'GELSON VASCONCELLOS' },
+  { label: 'LUCAS BENTO' },
   { label: 'LUCIELIO JUNIOR' },
   { label: 'LUIGI PAINI' },
   { label: 'MAURICIO MARCONDES' },
   { label: 'MOZART PEDROTI' },
+  { label: 'TIAGO SILVA' },
 ];
 
 const operation_natures = [

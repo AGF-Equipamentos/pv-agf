@@ -53,7 +53,7 @@ let Login = ({ history, values }) => {
       res.text(),
     );
     localStorage.setItem('@ASA', reponse === '186.193.142.154' ? 'on' : 'off');
-    if (password === 'agf123') {
+    if (password === process.env.REACT_APP_PASSWORD) {
       if (reponse === '186.193.142.154') {
         if (values && values.login === true) {
           history.push('/sellerdetails');
